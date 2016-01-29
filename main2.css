@@ -1,0 +1,744 @@
+@font-face {
+font-family: 'Serif Gothic Regular';
+src: url(fonts/SerifGothicRegular.ttf);
+}
+
+@font-face {
+font-family: 'Serif Gothic Bold';
+src: url(font/SerifGothichBold.tff);
+}
+
+body {
+	margin: 0;  
+	padding: 0;
+	font-family: 'Serif Gothic Regular', serif;
+    background-color: #000000;
+    min-height: 100%;	
+    height: 100%;
+    
+}
+
+html, body {
+      height: 100%;
+      width: 100%;
+}
+
+#nav {
+    min-height: 100%;
+    width: 224px;
+    background-color: #000000;
+    float: left;
+}
+
+#kylologo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 224px;
+}
+
+#kylologo {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 224px;
+}
+
+#nav ul{
+	list-style-type: none;
+	display: inline-block;	
+    text-align: center;
+}
+#nav ul a {
+    text-decoration: none;
+}
+
+#nav a {
+    color: #ffffff;
+    font-size: 25px;
+    line-height: 50px;
+    
+}
+
+#nav ul a:hover { 
+    color: #D70000;
+}
+
+body .maincontent {
+    background-color: #3F3F3F; 
+    margin-left: 224px
+}
+
+/*HOME*/
+
+.maincontent .mainimagecont{
+    background-size: cover; 
+    background-image: url(images/kyloren747.jpg); 
+    width: 100%;
+    height: 747px;
+    margin-bottom: 0px;
+
+}
+
+#mobilenav {
+    display: none;
+}
+
+#mobileheader {
+    
+    height: 747px;
+}
+
+.spacer {
+    height: 580px;
+}
+
+#spacer2{
+    height:54px;    
+}
+
+#mobileheader .imagelink .kylobox{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 48px;
+    margin: auto;
+    width: 200px;
+    text-align: center;    
+    display: block;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #D70000;
+    background-color: #D70000;
+}
+
+#mobileheader .imagelink .kylobox:hover {
+    background-color: #000000;
+    border-color: #000000;
+}
+
+fa fa-star-o {
+    height:40px;
+    width: 40px;
+}
+
+.bottomimagelink .kylorenbox {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 24px;
+    margin: auto;
+    width: 300px;
+    text-align: center;    
+    display: block;
+    border-style: solid;
+    border-width: 5px;
+    border-color: #E7250A;
+    background-color: #E7250A;
+   
+}
+
+.mainimagecont .bottomimagelink .kylorenbox:hover {
+    background-color: #000000;
+    border-color: #000000;
+}
+
+.maincontent .clearfix {
+  overflow: auto;
+}
+
+.homecontent {
+    
+    color: white;
+    display: block;
+    max-width: 1046px;
+    margin: 0 auto;
+}
+
+.wrapper1 {
+    border-bottom: 1px;
+    border-bottom-color: #696969;
+    border-bottom-style: solid;
+    height: 380px;
+    margin-top: 60px;
+    padding-bottom: 0px;
+}
+
+.wrapper1left{
+    display: inline-block;
+    height: 300px;
+    width: 50%;
+    
+}
+
+.wrapper1 #h1 {
+    /*width: 50%;*/
+    font-size: 32px;
+    text-align: left;
+    color: #FFEB3B;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.wrapper1 p{
+    /*width: 50%;*/
+    font-size: 20px;
+    line-height: 36px;
+    color: white;
+    text-align: left;
+}
+
+.wrapper1right {
+
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 48%;
+    height: 300px;
+    margin-top: 0px;
+    /*text-align: center;*/
+    /*width: 50%s;*/
+}
+
+#image1 {
+    
+    margin-bottom: 22px;
+    padding: 20px;
+    border: 22px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #D70000;
+}
+
+.wrapper2 {
+    margin-top: 60px;
+    border-bottom: 1px;
+    border-bottom-color: #696969;
+    border-bottom-style: solid;
+    height: 420px;
+}
+
+.wrapper2 #h1 {
+    font-size: 32px;
+    text-align: right;
+    color: #FFEB3B;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.wrapper2 p{
+    /*width: 50%;*/
+    font-size: 20px;
+    line-height: 36px;
+    color: white;
+    text-align: right;
+}
+
+.wrapper2left {
+    
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+    width: 48%;
+    height: 300px;
+}
+
+#h1m {
+    display:none;
+}
+
+.wrapper2right {
+    display: inline-block;
+    height: 300px;
+    width: 50%;
+}
+
+.darthbox {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 30px auto auto auto;
+    width: 350px;
+    text-align: center;    
+    border-style: solid;
+    border-width: 5px;
+    border-color: #D70000;
+    background-color: #D70000;
+    padding: 5px;
+    font-family: 'Serif Gothic Regular', serif;
+}
+
+.darthbox:hover {
+    background-color: #FFEB3B;
+    border-color: #FFEB3B;
+    color: black;
+}
+
+.wrapper3 {
+    display: block;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.wrapper3 h3 {
+    font-size: 28px;
+    color: #FF8300;   
+}
+
+.wrapper3 p {
+    font-size: 20px;
+    color: white;
+}
+
+form {
+    color: white;
+    font-family: 'Serif Gothic Regular', serif;
+    line-height: 30px;
+}
+
+.submit {
+    font-family: 'Serif Gothic Regular', serif;
+}
+
+body::-webkit-scrollbar{
+width:16px;
+background-color:#000;
+} 
+
+body::-webkit-scrollbar-thumb{
+background-color:#D70000;
+border-radius:10px;
+}
+
+body::-webkit-scrollbar-thumb:hover{
+background-color:#D70000;
+border:1px solid #000;
+}
+body::-webkit-scrollbar-thumb:active{
+background-color:#D70000;
+border:1px solid #000;
+} 
+
+/*KYLOS TALE*/
+
+
+#kylocontent {
+    background: url("images/whoiskylo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   /*background-color: #3F3F3F; */
+   max-width: 100%;
+   margin-left: 224px;
+   height: 100%;
+}
+
+.homecontentkylo{
+    height: 800px;
+    display: block;
+    max-width: 1046px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+
+.homecontentkylo h1
+{
+    font-size: 48px;
+    color: #FFEB3B;
+    padding-top: 50px;
+    margin-top: 0px;
+}
+
+.homecontentkylo p {
+   color: white;
+   font-size: 24px;
+}
+
+/*lightsaber*/
+
+#sabercontent {
+    background: url("images/saberback3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   /*background-color: #3F3F3F; */
+   max-width: 100%;
+   margin-left: 224px;
+   height: 100%;
+
+}
+
+.gif {
+    width:576px;
+    height:300px;
+    padding: 20px;
+    border: 22px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #D70000;
+}
+
+/*matt*/
+
+#mattcontent {
+    background: url("images/matt.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+   /*background-color: #3F3F3F; */
+   max-width: 100%;
+   margin-left: 224px;
+   height: 100%;
+
+}
+
+.homecontentkylo iframe{
+    padding: 20px;
+    border: 22px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #D70000;
+}
+
+#mp {
+     text-shadow: 2px 2px 0 black;
+
+}
+
+/*cartoons*/
+
+.homecontentkylo{
+    background-color: #3F3F3F;
+    background-size: cover;
+    background-repeat: no-repeat;
+   /*background-color: #3F3F3F; */
+   max-width: 100%;
+   margin-left: 224px;
+   min-height: 100vh;
+
+}
+
+.thumbnails img{
+    height: 250px;
+    width: 250px;
+}
+
+.thumbnails img:hover {
+		border: 4px solid #D70000;
+		cursor:pointer;
+	}
+
+.preview img {
+    border: 4px solid #D70000;
+    margin: 10px;
+    width:500px;
+    height: 500px;
+    padding: 20px;
+    border: 22px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #D70000;
+}
+
+.gallery {
+    background-color: #3F3F3F;
+    padding-bottom: 60px; 
+}
+
+
+
+/*home page media queries*/
+ /* Smartphones (portrait and landscape) ----------- */
+    @media only screen  
+    and (max-width : 420px) {
+        
+        /*HOME*/
+        
+        #nav{
+            display:none;
+        }
+        
+        .maincontent .mainimagecont{
+            background-size: 100% 100%; 
+            background-image: url(images/kylo.jpg); 
+            max-width: 100vh;
+            height: 125px;
+            margin-bottom: 10px;
+        }
+        
+        #mobilenav {
+            display: block;
+        }
+        
+        #mobilenav ul{
+            list-style-type: none;
+            display: block;	
+            text-align: center;
+            padding-left: 0;
+        }
+        #mobilenav ul a {
+            text-decoration: none;
+                  }
+                  
+        #mobilenav li {
+             display: inline;
+        }
+
+        #mobilenav a {
+            color: #ffffff;
+            font-size: 12px;
+            line-height: 15px;
+            
+        }
+
+        #mobilenav ul a:hover { 
+            color: #D70000;
+        }
+        
+        #mobileheader {
+            display: none;
+        }
+        
+         body .maincontent {
+            background-color: #3F3F3F; 
+            margin-left: 0px;
+        }
+        
+        .homecontent .wrapper1{
+            max-width: 100vh;
+            text-align: center;
+            margin: 15px;
+            margin-top: 20px;
+            padding-bottom: 0px;
+            height: 400px;
+        }
+        
+        .wrapper1left {
+            display: inline;
+            width: 100vh;
+            text-align: center;
+        }
+        
+        .wrapper1right{
+            display: inline;
+            max-width: 100vh;
+        }
+        
+        .wrapper1 #h1 {
+            /*width: 50%;*/
+            font-size: 16px;
+            color: #FFEB3B;
+            text-align: center;   
+        }
+        
+        .wrapper1 #h1m {
+            /*width: 50%;*/
+            font-size: 16px;
+            color: #FFEB3B;
+            text-align: center; 
+        }
+        
+        .wrapper1 p{
+            /*width: 50%;*/
+            font-size: 12px;
+            line-height: 26px;
+            color: white;
+            text-align: center;
+        }
+        
+        #image1 {
+            width: 150px;
+            height: 150px;
+            margin-bottom: 11px;
+            padding: 10px;
+            border: 11px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #D70000;
+        }
+        
+        .homecontent .wrapper2{
+            max-width: 100vh;
+            text-align: center;
+            margin: 15px;
+            margin-top: 20px;
+            height: 380px;
+        }
+        
+        .wrapper2left {
+            display: inline;
+            width: 100vh;
+            text-align: center;
+            
+        }
+        
+        .wrapper2left #image1 {
+            margin-top: 10px;
+        }
+        
+        .wrapper2right{
+            display: inline;
+            max-width: 100vh;
+        }
+        
+        .wrapper2left #h1m {
+            /*width: 50%;*/
+            font-size: 14px;
+            color: #FFEB3B;
+            text-align: center;  
+            display: inline; 
+        }
+        
+        .wrapper2right h2 {
+            display: none;
+        }
+        
+        .wrapper2 p{
+            /*width: 50%;*/
+            font-size: 12px;
+            line-height: 26px;
+            color: white;
+            text-align: center;
+        }
+        
+        #br {
+            display:none;
+        }
+        
+        .imagelink {
+            display: none;
+        }
+        
+        #w3 {
+            height: 370px;
+        }
+        
+        .wrapper3 {
+            padding-bottom: 20px;
+        }
+        
+        .wrapper3 h3 {
+            font-size: 14px;
+        }
+        
+        form {
+            font-size: 12px;
+            line-height: 15px;
+        }
+        
+        .submit {
+            font-size: 12px;
+        }
+        
+        .wrapper3 p {
+            font-size: 12px;
+        }
+        
+        /*kylos tale*/
+        
+        #kylocontent {
+            margin-left: 0;
+            background: black;
+        }
+        
+        #kylocontent h1 {
+            padding-top: 0px;
+            font-size: 24px;
+            
+        }
+        
+        #kylocontent p {
+            font-size: 16px;
+        }
+            
+        .kylonav{
+            margin-top:5px
+        }
+        
+        #last {
+            padding-bottom: 40px;
+        }
+        
+        /*lightsaber*/
+        
+        #sabercontent {
+            margin-left: 0;
+            background: black;
+        }
+        
+        #sabercontent h1 {
+            padding-top: 0px;
+            font-size: 24px;
+            
+        }
+        
+        #sabercontent p {
+            font-size: 16px;
+        }
+        
+        #sabercontent p#last{
+            padding-bottom: 0px;
+        }
+        
+        .gif {
+            width: 238px;
+            height: 150px;
+            padding: 20px;
+            border: 11px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #D70000;
+            margin-bottom: 40px;
+        }
+        
+        /*matt*/
+        
+        #mattcontent {
+            margin-left: 0;
+            background: black;
+        }
+        
+        #mattcontent .homecontentkylo {
+            height: 650px;
+        }
+        
+        #mattcontent h1 {
+            padding-top: 0px;
+            font-size: 24px;
+            
+        }
+        
+        #mattcontent p {
+            font-size: 16px;
+        }
+        
+        #mattcontent p#last{
+            padding-bottom: 0px;
+        }    
+        
+        #mattcontent iframe {
+            width: 238px;
+            height: 150px;
+            padding: 20px;
+            border: 11px;
+            border-style: solid;
+            border-width: 1px;
+            border-color: #D70000;
+            margin-bottom: 40px;
+        }
+        
+        /*cartoon*/
+        
+        #cartooncontent .homecontentkylo {
+            margin-left: 0;
+            background: black;
+        }
+        
+        .homecontentkylo h1 {
+            padding-top: 0px;
+            font-size: 24px;
+            
+        }
+        
+        .homecontentkylo p {
+            font-size: 16px;
+        }
+        
+        .mattcontent p#last{
+            padding-bottom: 0px;
+        }    
+    }
